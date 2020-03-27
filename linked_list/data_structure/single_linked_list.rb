@@ -10,7 +10,7 @@ class Node
 end
 
 
-class LinkedList
+class SingleLinkedList
 
   def initialize
     @head = nil
