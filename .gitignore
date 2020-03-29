@@ -13,3 +13,4 @@
 .idea/*.swp
 .DS_Store
 vendor/ruby
+.idea/

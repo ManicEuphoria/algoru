@@ -1,4 +1,6 @@
-require "algorithm_ruby/version"
+# frozen_string_literal: true
+
+require 'algorithm_ruby/version'
 
 module AlgorithmRuby
   class Error < StandardError; end

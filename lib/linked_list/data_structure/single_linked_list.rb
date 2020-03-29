@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # author: EUPHORAY
 
 class Node
@@ -9,9 +11,7 @@ class Node
   end
 end
 
-
 class SingleLinkedList
-
   def initialize
     @head = nil
   end
@@ -29,7 +29,10 @@ class SingleLinkedList
   def find_tail
     node = @head
     return node if node.next.nil?
-    return node if node.next.nil? while (node = node.next) # node = node.next means point current node address to the next node address
+
+    if node.next.nil?
+      return node
+    end while (node = node.next) # node = node.next means point current node address to the next node address
   end
 
   # find node which value equals target
