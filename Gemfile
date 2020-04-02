@@ -2,9 +2,12 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in algorithm_ruby.gemspec
+# Specify your gem's dependencies in algoru.gemspec
 gemspec
 
-gem 'optimist'
-gem 'rake', '~> 12.0'
-gem 'rspec', '~> 3.0'
+gem 'rake'
+
+group :development do
+  gem 'rspec', '~> 3.0'
+end
+

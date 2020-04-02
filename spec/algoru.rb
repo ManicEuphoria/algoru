@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe AlgorithmRuby do
+RSpec.describe Algoru do
   it 'has a version number' do
-    expect(AlgorithmRuby::VERSION).not_to be nil
+    expect(Algoru::VERSION).not_to be nil
   end
 
   it 'does something useful' do
