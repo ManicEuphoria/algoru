@@ -5,6 +5,5 @@ require 'rubygems'
 require 'bundler/setup'
 
 # Require gems specified in the Gemfile
-require 'optimist'
 
 # NOTE: this is a test file. delete this after running this successfully
